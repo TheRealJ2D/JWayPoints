@@ -1,4 +1,4 @@
-[![JWaypoints Plugin](https://i.postimg.cc/t4L7TDkv/jwp-header.png)](https://modrinth.com/plugin/jwaypoints)
+[![JWaypoints Plugin](https://i.postimg.cc/8kt5WTw6/jwp-header.png)](https://modrinth.com/plugin/jwaypoints)
 
 
 # JWaypoints
