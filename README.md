@@ -1,3 +1,6 @@
+[![JWaypoints Plugin](https://i.postimg.cc/2S5nvH4z/jwp-header.png)](https://modrinth.com/plugin/jwaypoints)
+
+
 # JWaypoints
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=TheRealJ2D.JWaypoints)
