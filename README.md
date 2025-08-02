@@ -1,7 +1,7 @@
 # JWaypoints
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=TheRealJ2D.JWaypoints)
-
+![Build Status](https://github.com/TheRealJ2D/JWaypoints/actions/workflows/build.yml/badge.svg)
 
 A feature-rich waypoints plugin for Minecraft servers with arrow navigation, customizable designs, and distance display.
 
