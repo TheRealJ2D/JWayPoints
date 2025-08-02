@@ -1,0 +1,80 @@
+name: JWaypoints
+version: '1.5'
+main: me.jWaypoints.JWaypoints
+api-version: '1.21'
+author: J2D
+description: A feature-rich waypoints plugin with arrow navigation, customizable designs, and distance display.
+
+commands:
+  waypoint:
+    description: Main waypoint command
+    aliases: [wp]
+    usage: /waypoint [set|remove|list|activate|deactivate|share|gui|current|design|designs|sound|sounds|distance|updatecheck|silent|nosound|noparticles|guidance|particle|particles]
+
+permissions:
+  jwaypoints.use:
+    description: Allow using the waypoint command
+    default: true
+  jwaypoints.set:
+    description: Allow setting waypoints
+    default: true
+  jwaypoints.remove:
+    description: Allow removing waypoints
+    default: true
+  jwaypoints.activate:
+    description: Allow activating waypoints
+    default: true
+  jwaypoints.deactivate:
+    description: Allow deactivating waypoints
+    default: true
+  jwaypoints.share:
+    description: Allow sharing waypoints
+    default: true
+  jwaypoints.receive:
+    description: Allow receiving shared waypoints
+    default: true
+  jwaypoints.gui:
+    description: Allow using the waypoint GUI
+    default: true
+  jwaypoints.design:
+    description: Allow changing arrow designs
+    default: true
+  jwaypoints.sound:
+    description: Allow changing arrival sounds
+    default: true
+  jwaypoints.distance:
+    description: Allow toggling distance display
+    default: true
+  jwaypoints.edit:
+    description: Allow editing waypoints
+    default: true
+  jwaypoints.designer:
+    description: Allow using the arrow designer
+    default: true
+  jwaypoints.settings:
+    description: Allow changing waypoint settings
+    default: true
+  jwaypoints.particles:
+    description: Allow changing arrival particles
+    default: true
+  jwaypoints.silent:
+    description: Allow toggling silent mode
+    default: true
+  jwaypoints.sound.toggle:
+    description: Allow toggling arrival sounds on/off
+    default: true
+  jwaypoints.particles.toggle:
+    description: Allow toggling arrival particles on/off
+    default: true
+  jwaypoints.updatecheck:
+    description: Allow checking for plugin updates
+    default: op
+  jwaypoints.admin:
+    description: Administrative permissions for JWaypoints
+    default: op
+  jwaypoints.update.notify:
+    description: Receive update notifications when available
+    default: op
+  jwaypoints.bypass.limit:
+    description: Allow bypassing the waypoint limit
+    default: op

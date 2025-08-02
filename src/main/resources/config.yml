@@ -1,0 +1,233 @@
+# JWaypoints Configuration File
+
+
+
+# Arrow appearance and positioning
+
+arrow:
+
+  height: 3.0
+
+  spacing: 0.4
+
+  forward_offset: 2.0
+
+  default_material: "LIME_CONCRETE"
+
+  head_material: "YELLOW_CONCRETE"
+
+  tail_material: "RED_CONCRETE"
+
+
+
+# Plugin settings
+
+settings:
+
+  allow_sharing: true
+
+  waypoint_limit: 10
+
+  # Default distance display setting for new players
+
+  distance_display_default: true
+
+  silent_mode_default: false
+
+  sound_disabled_default: false
+
+  particles_disabled_default: false
+
+  guidance_messages_default: true
+
+
+
+  # GUI Safety Limits (prevent crashes and performance issues)
+
+  max_waypoints_per_page: 45      # Maximum waypoints shown per GUI page
+
+  absolute_max_waypoints: 100     # Hard limit even for bypass users
+
+
+
+# GUI settings
+
+gui:
+
+  title: "&6Waypoint Manager"
+
+
+
+# Default settings
+
+designs:
+
+  default: "standard"
+
+
+
+  # Define arrow designs
+
+  standard:
+
+    main_material: "LIME_CONCRETE"
+
+    head_material: "YELLOW_CONCRETE"
+
+    tail_material: "RED_CONCRETE"
+
+    glowing: false
+
+    particle_effect: "none"
+
+    pattern_type: 0
+
+
+
+  diamond:
+
+    main_material: "DIAMOND_BLOCK"
+
+    head_material: "LIGHT_BLUE_CONCRETE"
+
+    tail_material: "BLUE_CONCRETE"
+
+    glowing: true
+
+    particle_effect: "SPELL_WITCH"
+
+    pattern_type: 0
+
+
+
+  gold:
+
+    main_material: "GOLD_BLOCK"
+
+    head_material: "YELLOW_CONCRETE"
+
+    tail_material: "ORANGE_CONCRETE"
+
+    glowing: true
+
+    particle_effect: "FLAME"
+
+    pattern_type: 1
+
+
+
+  emerald:
+
+    main_material: "EMERALD_BLOCK"
+
+    head_material: "LIME_CONCRETE"
+
+    tail_material: "GREEN_CONCRETE"
+
+    glowing: true
+
+    particle_effect: "HAPPY_VILLAGER"
+
+    pattern_type: 3
+
+
+
+  redstone:
+
+    main_material: "REDSTONE_BLOCK"
+
+    head_material: "RED_CONCRETE"
+
+    tail_material: "BLACK_CONCRETE"
+
+    glowing: true
+
+    particle_effect: "REDSTONE"
+
+    pattern_type: 1
+
+
+
+# Arrival sound settings
+
+sounds:
+
+  default: "levelup"
+
+
+
+  # Available sounds with proper mapping to items in GUI
+
+  available:
+
+    levelup: "entity.player.levelup"
+
+    ender_dragon: "entity.ender_dragon.growl"
+
+    bell: "block.bell.use"
+
+    portal: "block.portal.travel"
+
+    firework: "entity.firework_rocket.large_blast"
+
+    anvil: "block.anvil.land"
+
+    note_pling: "block.note_block.pling"
+
+    experience: "entity.experience_orb.pickup"
+
+    chicken: "entity.chicken.egg"
+
+    cat: "entity.cat.purreow"
+
+
+
+# Arrival particle settings
+
+particles:
+
+  default: "FIREWORK"
+
+
+
+  # Available particles for arrival effects
+
+  available:
+
+    FIREWORK: "Explosive celebration"
+
+    FLAME: "Fiery arrival"
+
+    SOUL: "Mystical soul flames"
+
+    HAPPY_VILLAGER: "Cheerful green sparkles"
+
+    HEART: "Lovely pink hearts"
+
+    NOTE: "Musical notes"
+
+    ENCHANT: "Magical enchantment"
+
+    EXPLOSION: "Powerful blast"
+
+    TOTEM_OF_UNDYING: "Golden celebration"
+
+    END_ROD: "Mystical end energy"
+
+    DRAGON_BREATH: "Dragon's mystical breath"
+
+    BUBBLE_POP: "Playful bubble bursts"
+
+    CAMPFIRE_COSY_SMOKE: "Cozy campfire smoke"
+
+    ELECTRIC_SPARK: "Electric energy"
+
+    GLOW: "Soft glowing light"
+
+    SCRAPE: "Metallic sparks"
+
+    SCULK_SOUL: "Deep sculk energy"
+
+    SONIC_BOOM: "Warden's sonic blast"
+
+    CHERRY_LEAVES: "Gentle cherry petals"
