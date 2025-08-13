@@ -158,7 +158,7 @@ This plugin uses bStats to collect anonymous usage statistics. You can opt-out b
 
 ## Version History
 
-- **v1.6**: Current version with enhanced GUI, particle effects, and improved navigation
+- **v1.6**: Current version
 - See [Releases](https://github.com/TheRealJ2D/JWaypoints/releases) for full changelog
 
 ---
